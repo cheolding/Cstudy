@@ -10,8 +10,8 @@ int main(void)
 	int result = 0;
 	result = sub(5, 2);
 	printf("%d\n", result);
-
-	system("pause");
+	GFGFFG
+	system("pausASDFASDFe");
 	printf("일시 정지 끝남");
 	return 0;
 }
