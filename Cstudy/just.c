@@ -7,11 +7,23 @@ int sub(int a, int b)
 
 int main(void)
 {
-	int result = 0;
-	result = sub(5, 2);
-	printf("%d\n", result);
-	GFGFFG
-	system("pausASDFASDFe");
-	printf("일시 정지 끝남");
+	int cnt, num;
+	num = 100;
+	int sum = 0;
+	for (int i = 2; i <= num; i++)
+	{
+		cnt = 0;
+		for (int j = 2; j <= i; j++)
+		{
+			if (i % j == 0)
+				cnt++;
+			
+		}
+		sum += cnt;
+		if (cnt == 1) // 나눠지는 수가 1개 뿐인 경우
+			printf("%d ", i);
+
+	}
+	printf("\n\n%d", sum);
 	return 0;
 }
